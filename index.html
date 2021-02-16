@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta nome="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animeflix Brasil - assistir animes online</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Responsividade -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Links owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl/owl.theme.min.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h2 class="logo">ANIMEFLIX</h2>
+			<nav>
+				<a href="#">Inicio</a>
+				<a href="#">Séries</a>
+				<a href="#">Filmes</a>
+				<a href="#">Categorias</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="anime-principal">
+			<div class="container">
+				<img class="titulo" src="img/logo-dragon-ball-z.png" alt="Logo Dragon Ball Z">
+				<p class="descricao">Cinco anos após vencer o Torneio Mundial de Artes Marciais, Goku tem uma vida pacífica com sua esposa e filho. No entanto, isso muda com a chegada de um misterioso inimigo....</p>
+
+				<div class="botoes">
+					<button role="button" class="botao" onclick="window.location.href =('players/playerDBZ.html')">
+						<i class="fas fa-play"></i>
+						<!--<a href="https://www.youtube.com/watch?v=pcmgtgya-fw">ASSISTIR</a>-->
+						ASSISTIR
+					</button>
+					<button role="button" class="botao">
+						<i class="fas fa-bars"></i>
+						VER EPISÓDIOS
+					</button>	
+				</div>
+
+			</div>
+		</div>
+	</main>
+
+	<div class="carousel-animes">
+	    <div class="owl-carousel owl-theme">
+	    	<input class="box-anime" type="image" src="img/naruto-poster.jpg" ondblclick="window.location.href =('players/playerNRT.html')">
+	    	<input class="box-anime" type="image" src="img/death-note-poster.jpg" ondblclick="window.location.href =('players/playerDN.html')">
+	    	<input class="box-anime" type="image" src="img/one-piece-poster.jpg" ondblclick="window.location.href =('players/playerOP.html')">
+	    	<input class="box-anime" type="image" src="img/one-punch-man-poster.jpg" ondblclick="window.location.href =('players/playerOPM.html')">
+	    	<input class="box-anime" type="image" src="img/attack-on-titan-poster.jpg" ondblclick="window.location.href =('players/playerAOT.html')">
+	    	<input class="box-anime" type="image" src="img/demon-slayer-poster.jpg" ondblclick="window.location.href =('players/playerDM.html')">	
+	    </div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/103592a9c1.js" crossorigin="anonymous"></script>
+	<script src="js/owl/jquery.min.js"></script>
+	<script src="js/owl/owl.carousel.min.js"></script>
+	<script src="js/owl/setup.js"></script>
+
+</body>
+</html>
