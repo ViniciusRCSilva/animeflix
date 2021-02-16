@@ -1,2 +1,5 @@
-# animeflix
-Recriando interface da Netflix - Digital Innovation One
+# **Animeflix**
+
+---
+
+## Um projeto com objetivo de recriar a interface da Netflix!
